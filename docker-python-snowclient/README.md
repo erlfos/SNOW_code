@@ -1,4 +1,5 @@
 # README.md
+This Python script queries a SNOW scripted REST API that I have created, counts sites down alerts, and writes the result to an InfluxDB.
 ## Usage
 Start with a shell, mount volume
 ```

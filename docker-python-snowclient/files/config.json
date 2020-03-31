@@ -1,0 +1,5 @@
+{
+  "influxDB_host":"influxdb",
+  "influxDB_port":"8086",
+  "influxDB_database":"SNOW"
+}

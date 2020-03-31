@@ -1,3 +1,4 @@
+// Look for open alerts from a specific source created in the past 60 minutes, that are not attached to an incident. Run a sub flow if more than 50 such incidents exist.
 var gr = new GlideAggregate("em_alert");
 var alerts = new GlideRecord("em_alert");
 gr.addAggregate("COUNT","type.name");
